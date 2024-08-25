@@ -23,7 +23,7 @@
 #:     italic_font      Operator Mono Book Italic
 #:     bold_italic_font Operator Mono Medium Italic
 
-font_size 13.0
+font_size 14.0
 
 #: Font size (in pts).
 
@@ -2530,7 +2530,7 @@ include ~/.cache/wal/colors-kitty.conf
 
 
 # BEGIN_KITTY_FONTS
-font_family      family='JetBrains Mono' variable_name=JetBrainsMono wght=210.5263157894737
+font_family      family='CaskaydiaMono Nerd Font' style=Light
 bold_font        auto
 italic_font      auto
 bold_italic_font auto

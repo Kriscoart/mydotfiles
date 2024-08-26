@@ -1,0 +1,156 @@
+@import url("/home/thanura/.cache/wal/colors-waybar.css");
+
+* {
+    border: none;
+    font-family: Font Awesome, Roboto, Inter, sans-serif;
+    font-size: 12px;
+    min-height: 0px;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+window {
+	/*font-weight: bold;*/
+}
+window#waybar {
+    background: transparent;
+    min-height: 0px; /* set waybar's height to 18px */
+    font-size: 18px; /* set only the font size to be bigger, which in turn will adjust the height of other elements */
+
+}
+/*-----module groups----*/
+.modules-right {
+	background-color: transparent;
+    margin: 2px 5px 0 0;
+}
+.modules-center {
+	background-color: transparent;
+    margin: 2px 0 0 0;
+}
+.modules-left {
+    margin: 2px 0 0 5px;
+	background-color: transparent;
+}
+/*-----modules indv----*/
+#workspaces {
+    background-color: @background;
+    padding: 5px 5px;
+    border-radius: 20px;
+}
+#workspaces button {
+    padding: 1px 5px;
+    background-color: transparent;
+}
+#workspaces button:hover {
+    box-shadow: inherit;
+	background-color: @color0;
+}
+
+#workspaces button.active {
+    background-color: @color1;	
+}
+
+#workspaces button.focused {
+	background-color: @color2;
+}
+#clock {
+	font-weight:bold;
+}
+#battery{
+    background-color: @color5; /* Different background color */
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+#cpu,
+#memory,
+#temperature,
+#network {
+    margin-left: 15px; /* Ensure it's separated */
+    background-color:@color6; /* Different background color */
+    padding: 5px 10px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+#pulseaudio  {
+    margin-right: 20px; /* Ensure it's separated */
+    background-color:@color4; /* Different background color */
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+#tray {
+  background-color: @color3; /* Different background color */
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+#group-power
+#mode,
+#custom-menu,
+#idle_inhibitor {
+    padding: 5px 5px; 
+    padding-left: 10px ; padding-right: 10px;
+}
+#mode {
+    color: #cc3436;
+    font-weight: bold;
+}
+
+#custom-media {
+    margin-left: 20px; /* Ensure it's separated from the workspace */
+    background-color: @color2; /* Different background color */
+    padding: 5px 10px;
+    border-radius: 20px;
+      
+}
+
+#group-power {
+	margin-bottom: 0px;
+	padding-left: 10px
+}
+
+#group-power .text-button {
+	font-weight: bold;
+}
+
+#custom-power { color: #9e1316; padding-right: 9px}
+#custom-reboot { color: #9f8170; padding-right: 13px }
+#custom-lock { color: #32cd32; padding-right: 5px }
+#custom-quit { color: #9f4576; padding-right: 5px; padding-left: 5px }
+
+/*-----Indicators----*/
+#idle_inhibitor.activated {
+    color: #2dcc36;
+}
+#pulseaudio.muted {
+    color: #cc3436;
+}
+#battery.charging {
+    color: #2dcc36;
+}
+#battery.warning:not(.charging) {
+	color: #e6e600;
+}
+#battery.critical:not(.charging) {
+    color: #cc3436;
+}
+#temperature.critical {
+    color: #cc3436;
+}
+
+
+/*-----Menu-------*/
+menu {
+	color: #000000;
+
+}
+
+
+
+/*-----Colors----*/
+/*
+ *rgba(0,85,102,1),#005566 --> Indigo(dye)
+ *rgba(0,43,51,1),#002B33 --> Dark Green 
+ *rgba(0,153,153,1),#009999 --> Persian Green 
+ *
+ */

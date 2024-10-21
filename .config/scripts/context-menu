@@ -1,0 +1,22 @@
+#!/bin/bash
+
+CHOICE=$(echo -e "Option 1\nOption 2\nOption 3" | rofi -dmenu -p "Choose an option:")
+
+case "$CHOICE" in
+    "Option 1")
+        # Do something for Option 1
+        notify-send "You chose Option 1"
+        ;;
+    "Option 2")
+        # Do something for Option 2
+        notify-send "You chose Option 2"
+        ;;
+    "Option 3")
+        # Do something for Option 3
+        notify-send "You chose Option 3"
+        ;;
+    *)
+        notify-send "No valid option chosen"
+        ;;
+esac
+

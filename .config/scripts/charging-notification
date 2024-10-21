@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Set the battery level threshold for charging notification
+THRESHOLD=85
+
+# Get the current battery level
+BATTERY_LEVEL=$(acpi -b | grep -P -o '[0-9]+(?=%)')
+
+# Get the charging status (Charging/Discharging)
+CHARGING_STATUS=$(acpi -b | grep -o "Charging\|Discharging")
+
+# Check if the battery is charging and has reached the threshold
+if [ "$CHARGING_STATUS" == "Charging" ] && [ "$BATTERY_LEVEL" -ge "$THRESHOLD" ]; then
+    # Send a charging notification
+    notify-send -u normal "Battery Charging" "Battery level is at $BATTERY_LEVEL%. Consider unplugging your charger." -i "battery-charged"
+    paplay ~/.local/share/sounds/alert.wav
+fi
+

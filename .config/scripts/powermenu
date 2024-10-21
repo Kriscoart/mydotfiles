@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Options for powermenu
+options="🔒Lock\n⏾ Suspend\n🔄 Reboot\n⏻ Shutdown\n❌ Cancel"
+
+# Rofi Command
+chosen=$(echo -e "$options" | rofi -dmenu -i -p "Power Menu:" -theme-str 'window {width: 20%;} listview {lines: 5;} entry {enabled: false;}')
+
+case "$chosen" in
+    "🔒Lock")
+        hyprlock
+        ;;
+    "⏾ Suspend")
+        systemctl suspend
+        ;;
+    "🔄 Reboot")
+        reboot
+        ;;
+    "⏻ Shutdown")
+        shutdown now
+        ;;
+    "❌ Cancel")
+        exit 0
+        ;;
+    *)
+        exit 1
+        ;;
+esac
+

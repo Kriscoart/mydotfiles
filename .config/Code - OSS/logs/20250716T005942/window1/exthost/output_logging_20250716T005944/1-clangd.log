@@ -1,0 +1,140 @@
+I[00:59:45.096] clangd version 20.1.7
+I[00:59:45.096] Features: linux
+I[00:59:45.096] PID: 7450
+I[00:59:45.096] Working directory: /home/thanura
+I[00:59:45.096] argv[0]: /usr/bin/clangd
+I[00:59:45.096] Starting LSP over stdin/stdout
+I[00:59:45.096] <-- initialize(0)
+I[00:59:45.097] --> reply:initialize(0) 0 ms
+I[00:59:45.101] <-- initialized
+I[00:59:45.113] <-- textDocument/didOpen
+I[00:59:45.113] Failed to find compilation database for /home/thanura/sdfdsf.cpp
+I[00:59:45.114] ASTWorker building file /home/thanura/sdfdsf.cpp version 1 with command clangd fallback
+[/home/thanura]
+/usr/bin/clang -resource-dir=/usr/lib/clang/20 -- /home/thanura/sdfdsf.cpp
+I[00:59:45.117] --> textDocument/clangd.fileStatus
+I[00:59:45.128] Built preamble of size 258796 for file /home/thanura/sdfdsf.cpp version 1 in 0.01 seconds
+I[00:59:45.129] --> workspace/semanticTokens/refresh(0)
+I[00:59:45.131] <-- reply(0)
+I[00:59:45.131] Indexing c++17 standard library in the context of /home/thanura/sdfdsf.cpp
+I[00:59:45.136] --> textDocument/publishDiagnostics
+I[00:59:45.136] --> textDocument/inactiveRegions
+I[00:59:45.136] --> textDocument/clangd.fileStatus
+I[00:59:45.367] <-- textDocument/codeAction(1)
+I[00:59:45.367] --> reply:textDocument/codeAction(1) 0 ms
+I[00:59:45.367] --> textDocument/clangd.fileStatus
+I[00:59:45.443] <-- $/setTrace
+I[00:59:45.443] unhandled notification $/setTrace
+I[00:59:45.443] <-- textDocument/documentLink(2)
+I[00:59:45.443] <-- textDocument/inlayHint(3)
+I[00:59:45.443] --> reply:textDocument/documentLink(2) 0 ms
+I[00:59:45.443] <-- textDocument/semanticTokens/full(4)
+I[00:59:45.443] --> reply:textDocument/inlayHint(3) 0 ms
+I[00:59:45.444] --> reply:textDocument/semanticTokens/full(4) 0 ms
+I[00:59:45.444] --> textDocument/clangd.fileStatus
+I[00:59:45.456] <-- $/cancelRequest
+I[00:59:45.456] <-- textDocument/foldingRange(5)
+I[00:59:45.456] <-- textDocument/documentLink(6)
+I[00:59:45.456] --> reply:textDocument/documentLink(6) 0 ms
+I[00:59:45.456] --> textDocument/clangd.fileStatus
+I[00:59:45.456] --> reply:textDocument/foldingRange(5) 0 ms
+I[00:59:45.496] <-- textDocument/codeAction(7)
+I[00:59:45.496] --> reply:textDocument/codeAction(7) 0 ms
+I[00:59:45.496] --> textDocument/clangd.fileStatus
+I[00:59:45.561] <-- textDocument/documentSymbol(8)
+I[00:59:45.561] --> reply:textDocument/documentSymbol(8) 0 ms
+I[00:59:45.561] --> textDocument/clangd.fileStatus
+I[00:59:45.574] <-- $/cancelRequest
+I[00:59:45.574] <-- $/cancelRequest
+I[00:59:45.574] <-- textDocument/codeAction(9)
+I[00:59:45.574] --> reply:textDocument/codeAction(9) 0 ms
+I[00:59:45.575] <-- textDocument/documentLink(10)
+I[00:59:45.575] --> textDocument/clangd.fileStatus
+I[00:59:45.575] --> reply:textDocument/documentLink(10) 0 ms
+I[00:59:45.575] --> textDocument/clangd.fileStatus
+I[00:59:45.752] <-- textDocument/codeAction(11)
+I[00:59:45.752] <-- textDocument/documentLink(12)
+I[00:59:45.752] --> reply:textDocument/codeAction(11) 0 ms
+I[00:59:45.752] --> reply:textDocument/documentLink(12) 0 ms
+I[00:59:45.752] --> textDocument/clangd.fileStatus
+I[00:59:45.953] <-- textDocument/foldingRange(13)
+I[00:59:45.953] --> reply:textDocument/foldingRange(13) 0 ms
+I[00:59:46.045] <-- textDocument/documentSymbol(14)
+I[00:59:46.045] --> reply:textDocument/documentSymbol(14) 0 ms
+I[00:59:46.045] --> textDocument/clangd.fileStatus
+I[00:59:46.268] <-- $/setTrace
+I[00:59:46.268] unhandled notification $/setTrace
+I[00:59:46.281] <-- textDocument/documentSymbol(15)
+I[00:59:46.281] --> reply:textDocument/documentSymbol(15) 0 ms
+I[00:59:46.281] --> textDocument/clangd.fileStatus
+I[00:59:46.305] <-- textDocument/documentLink(16)
+I[00:59:46.306] --> reply:textDocument/documentLink(16) 0 ms
+I[00:59:46.306] --> textDocument/clangd.fileStatus
+I[00:59:46.306] <-- textDocument/inlayHint(17)
+I[00:59:46.306] --> reply:textDocument/inlayHint(17) 0 ms
+I[00:59:46.306] --> textDocument/clangd.fileStatus
+I[00:59:48.479] Indexed c++17 standard library (incomplete due to errors): 14345 symbols, 11423 filtered
+I[00:59:51.792] <-- textDocument/codeAction(18)
+I[00:59:51.792] --> reply:textDocument/codeAction(18) 0 ms
+I[00:59:51.792] --> textDocument/clangd.fileStatus
+I[00:59:54.419] <-- textDocument/documentHighlight(19)
+I[00:59:54.419] --> reply:textDocument/documentHighlight(19) 0 ms
+I[00:59:54.419] --> textDocument/clangd.fileStatus
+I[01:00:01.151] <-- textDocument/documentHighlight(20)
+I[01:00:01.151] --> reply:textDocument/documentHighlight(20) 0 ms
+I[01:00:01.151] --> textDocument/clangd.fileStatus
+I[01:00:02.199] <-- textDocument/inlayHint(21)
+I[01:00:02.199] --> reply:textDocument/inlayHint(21) 0 ms
+I[01:00:02.199] --> textDocument/clangd.fileStatus
+I[01:00:25.395] <-- textDocument/documentHighlight(22)
+I[01:00:25.395] --> reply:textDocument/documentHighlight(22) 0 ms
+I[01:00:25.396] --> textDocument/clangd.fileStatus
+I[01:06:42.771] <-- textDocument/codeAction(23)
+I[01:06:42.771] --> reply:textDocument/codeAction(23) 0 ms
+I[01:06:42.771] --> textDocument/clangd.fileStatus
+I[01:06:42.776] <-- textDocument/documentHighlight(24)
+I[01:06:42.779] --> reply:textDocument/documentHighlight(24) 2 ms
+I[01:06:42.779] --> textDocument/clangd.fileStatus
+I[01:06:42.812] <-- textDocument/inlayHint(25)
+I[01:06:42.812] --> reply:textDocument/inlayHint(25) 0 ms
+I[01:06:42.812] --> textDocument/clangd.fileStatus
+I[01:06:42.813] <-- textDocument/documentLink(26)
+I[01:06:42.813] --> reply:textDocument/documentLink(26) 0 ms
+I[01:06:42.813] --> textDocument/clangd.fileStatus
+I[01:06:42.837] <-- textDocument/documentHighlight(27)
+I[01:06:42.837] --> reply:textDocument/documentHighlight(27) 0 ms
+I[01:06:42.838] --> textDocument/clangd.fileStatus
+I[01:06:42.955] <-- textDocument/foldingRange(28)
+I[01:06:42.956] --> reply:textDocument/foldingRange(28) 1 ms
+I[01:06:43.061] <-- textDocument/documentSymbol(29)
+I[01:06:43.061] --> reply:textDocument/documentSymbol(29) 0 ms
+I[01:06:43.061] --> textDocument/clangd.fileStatus
+I[01:06:43.073] <-- textDocument/foldingRange(30)
+I[01:06:43.073] --> reply:textDocument/foldingRange(30) 0 ms
+I[01:06:43.088] <-- textDocument/semanticTokens/full/delta(31)
+I[01:06:43.088] --> reply:textDocument/semanticTokens/full/delta(31) 0 ms
+I[01:06:43.088] --> textDocument/clangd.fileStatus
+I[01:06:57.449] <-- textDocument/documentHighlight(32)
+I[01:06:57.449] --> reply:textDocument/documentHighlight(32) 0 ms
+I[01:06:57.449] --> textDocument/clangd.fileStatus
+I[01:06:57.890] <-- textDocument/inlayHint(33)
+I[01:06:57.890] --> reply:textDocument/inlayHint(33) 0 ms
+I[01:06:57.890] --> textDocument/clangd.fileStatus
+I[01:06:58.950] <-- textDocument/documentHighlight(34)
+I[01:06:58.950] --> reply:textDocument/documentHighlight(34) 0 ms
+I[01:06:58.950] --> textDocument/clangd.fileStatus
+I[01:07:00.489] <-- textDocument/documentHighlight(35)
+I[01:07:00.489] --> reply:textDocument/documentHighlight(35) 0 ms
+I[01:07:00.490] --> textDocument/clangd.fileStatus
+I[01:07:00.498] <-- textDocument/inlayHint(36)
+I[01:07:00.498] --> reply:textDocument/inlayHint(36) 0 ms
+I[01:07:00.498] --> textDocument/clangd.fileStatus
+I[01:07:17.789] <-- textDocument/documentHighlight(37)
+I[01:07:17.789] --> reply:textDocument/documentHighlight(37) 0 ms
+I[01:07:17.789] --> textDocument/clangd.fileStatus
+I[01:07:17.790] <-- textDocument/inlayHint(38)
+I[01:07:17.790] --> reply:textDocument/inlayHint(38) 0 ms
+I[01:07:17.790] --> textDocument/clangd.fileStatus
+I[01:07:47.297] <-- textDocument/documentHighlight(39)
+I[01:07:47.297] --> reply:textDocument/documentHighlight(39) 0 ms
+I[01:07:47.297] --> textDocument/clangd.fileStatus

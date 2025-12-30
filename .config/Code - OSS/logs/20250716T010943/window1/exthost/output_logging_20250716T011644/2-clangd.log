@@ -1,0 +1,97 @@
+I[01:16:45.535] clangd version 20.1.7
+I[01:16:45.535] Features: linux
+I[01:16:45.535] PID: 10011
+I[01:16:45.535] Working directory: /home/thanura/Coding
+I[01:16:45.535] argv[0]: /usr/bin/clangd
+I[01:16:45.535] Starting LSP over stdin/stdout
+I[01:16:45.536] <-- initialize(0)
+I[01:16:45.537] --> reply:initialize(0) 0 ms
+I[01:16:45.540] <-- initialized
+I[01:16:45.557] <-- textDocument/didOpen
+I[01:16:45.557] Failed to find compilation database for /home/thanura/Coding/hello.cpp
+I[01:16:45.557] ASTWorker building file /home/thanura/Coding/hello.cpp version 222 with command clangd fallback
+[/home/thanura/Coding]
+/usr/bin/clang -resource-dir=/usr/lib/clang/20 -- /home/thanura/Coding/hello.cpp
+I[01:16:45.559] --> textDocument/clangd.fileStatus
+I[01:16:45.562] <-- textDocument/documentSymbol(1)
+I[01:16:45.562] <-- textDocument/codeAction(2)
+I[01:16:45.562] <-- textDocument/documentLink(3)
+I[01:16:45.564] <-- textDocument/inlayHint(4)
+I[01:16:45.631] <-- $/setTrace
+I[01:16:45.631] unhandled notification $/setTrace
+I[01:16:45.754] <-- $/cancelRequest
+I[01:16:45.754] <-- textDocument/documentSymbol(5)
+I[01:16:45.754] <-- $/cancelRequest
+I[01:16:45.754] <-- textDocument/codeAction(6)
+I[01:16:45.754] <-- $/cancelRequest
+I[01:16:45.754] <-- textDocument/documentLink(7)
+I[01:16:45.890] <-- textDocument/semanticTokens/full(8)
+I[01:16:45.901] <-- $/cancelRequest
+I[01:16:45.901] <-- textDocument/codeAction(9)
+I[01:16:45.901] <-- $/cancelRequest
+I[01:16:45.901] <-- textDocument/documentLink(10)
+I[01:16:45.977] <-- textDocument/foldingRange(11)
+I[01:16:45.978] --> reply:textDocument/foldingRange(11) 0 ms
+I[01:16:46.003] Built preamble of size 3940768 for file /home/thanura/Coding/hello.cpp version 222 in 0.44 seconds
+I[01:16:46.003] --> workspace/semanticTokens/refresh(0)
+I[01:16:46.003] --> textDocument/clangd.fileStatus
+I[01:16:46.003] Indexing c++17 standard library in the context of /home/thanura/Coding/hello.cpp
+I[01:16:46.005] <-- reply(0)
+I[01:16:46.017] --> textDocument/publishDiagnostics
+I[01:16:46.017] --> textDocument/inactiveRegions
+I[01:16:46.017] --> reply:textDocument/documentSymbol(1) 455 ms, error: Task was cancelled.
+I[01:16:46.017] --> reply:textDocument/codeAction(2) 454 ms, error: Task was cancelled.
+I[01:16:46.017] --> reply:textDocument/documentLink(3) 454 ms, error: Task was cancelled.
+I[01:16:46.017] --> reply:textDocument/inlayHint(4) 452 ms
+I[01:16:46.017] --> reply:textDocument/documentSymbol(5) 263 ms
+I[01:16:46.017] --> reply:textDocument/codeAction(6) 263 ms, error: Task was cancelled.
+I[01:16:46.017] --> reply:textDocument/documentLink(7) 262 ms, error: Task was cancelled.
+I[01:16:46.017] --> reply:textDocument/semanticTokens/full(8) 127 ms
+I[01:16:46.017] --> reply:textDocument/codeAction(9) 116 ms
+I[01:16:46.017] --> reply:textDocument/documentLink(10) 116 ms
+I[01:16:46.017] --> textDocument/clangd.fileStatus
+[Error - 1:16:46 AM] Request textDocument/documentSymbol failed.
+[object Object]
+[Error - 1:16:46 AM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 1:16:46 AM] Request textDocument/documentLink failed.
+[object Object]
+[Error - 1:16:46 AM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 1:16:46 AM] Request textDocument/documentLink failed.
+[object Object]
+I[01:16:46.048] <-- textDocument/documentSymbol(12)
+I[01:16:46.048] --> reply:textDocument/documentSymbol(12) 0 ms
+I[01:16:46.048] --> textDocument/clangd.fileStatus
+I[01:16:46.353] <-- textDocument/semanticTokens/full/delta(13)
+I[01:16:46.353] --> reply:textDocument/semanticTokens/full/delta(13) 0 ms
+I[01:16:46.353] --> textDocument/clangd.fileStatus
+I[01:16:48.165] <-- textDocument/inlayHint(14)
+I[01:16:48.165] --> reply:textDocument/inlayHint(14) 0 ms
+I[01:16:48.165] --> textDocument/clangd.fileStatus
+I[01:16:49.083] Indexed c++17 standard library (incomplete due to errors): 14345 symbols, 11423 filtered
+I[01:17:08.904] <-- textDocument/inlayHint(15)
+I[01:17:08.905] --> reply:textDocument/inlayHint(15) 0 ms
+I[01:17:08.905] --> textDocument/clangd.fileStatus
+I[01:17:24.598] <-- textDocument/codeAction(16)
+I[01:17:24.598] --> reply:textDocument/codeAction(16) 0 ms
+I[01:17:24.598] --> textDocument/clangd.fileStatus
+I[01:17:24.648] <-- textDocument/inlayHint(17)
+I[01:17:24.649] --> reply:textDocument/inlayHint(17) 0 ms
+I[01:17:24.649] --> textDocument/clangd.fileStatus
+I[01:17:24.650] <-- textDocument/documentLink(18)
+I[01:17:24.650] --> reply:textDocument/documentLink(18) 0 ms
+I[01:17:24.650] --> textDocument/clangd.fileStatus
+I[01:17:24.796] <-- textDocument/foldingRange(19)
+I[01:17:24.796] --> reply:textDocument/foldingRange(19) 0 ms
+I[01:17:24.862] <-- textDocument/codeAction(20)
+I[01:17:24.862] --> reply:textDocument/codeAction(20) 0 ms
+I[01:17:24.862] --> textDocument/clangd.fileStatus
+I[01:17:24.880] <-- textDocument/semanticTokens/full/delta(21)
+I[01:17:24.880] --> reply:textDocument/semanticTokens/full/delta(21) 0 ms
+I[01:17:24.880] --> textDocument/clangd.fileStatus
+I[01:17:24.897] <-- textDocument/documentSymbol(22)
+I[01:17:24.897] --> reply:textDocument/documentSymbol(22) 0 ms
+I[01:17:24.897] --> textDocument/clangd.fileStatus
+I[01:17:26.849] <-- textDocument/didClose
+I[01:17:26.849] --> textDocument/publishDiagnostics

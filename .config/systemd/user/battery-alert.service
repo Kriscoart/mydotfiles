@@ -1,0 +1,6 @@
+[Unit]
+Description=Battery Notification Service
+
+[Service]
+ExecStart=/usr/local/bin/battery-alertt
+

@@ -1,0 +1,52 @@
+2025-07-16 00:37:59.510 [info] Started local extension host with pid 3314.
+2025-07-16 00:37:59.587 [info] Started initializing default profile extensions in extensions installation folder. file:///home/thanura/.vscode-oss/extensions
+2025-07-16 00:37:59.591 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-07-16 00:37:59.775 [info] ComputeTargetPlatform: linux-x64
+2025-07-16 00:37:59.862 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/thanura/.vscode-oss/extensions
+2025-07-16 00:38:02.778 [info] [perf] Render performance baseline is 34ms
+2025-07-16 00:47:41.887 [error] Offline: Offline
+    at hsn (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3313:37059)
+    at async Ewt.c (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:638:25796)
+    at async BYe.getManifest (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1869:38378)
+    at async xV.vb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2226:7348)
+    at async xV.setInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2226:5745)
+    at async f7e.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:685:19757)
+    at async f7e.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:685:18312)
+    at async f7e.openEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:685:17394)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:797:23340
+    at async hot.open (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2292:18248)
+2025-07-16 00:47:42.778 [error] Failed to fetch: Failed: Failed to fetch
+    at BYe.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1869:34884)
+    at async BYe.I (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1869:29297)
+    at async BYe.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1869:23365)
+    at async BYe.getExtensions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1869:22155)
+    at async hot.getExtensions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2292:15145)
+    at async p9e (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:843:43327)
+    at async xV.Kb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2284:2880)
+    at async Promise.all (index 0)
+    at async xV.Eb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2284:1156)
+    at async xV.Cb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2284:333)
+2025-07-16 00:47:45.775 [error] Failed: Failed to fetch
+    at BYe.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1869:34884)
+    at async BYe.I (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1869:29297)
+    at async a (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1869:28019)
+    at async BYe.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1869:28307)
+    at async hot.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2292:14743)
+    at async Promise.all (index 0)
+    at async bbs.Mc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:843:21119)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:843:11775
+2025-07-16 00:49:26.364 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-07-16 00:51:45.506 [error] [Extension Host] (node:3314) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-07-16 00:51:50.525 [error] [Extension Host] Auto-install failed:  AbortError: The user aborted a request.
+	at abort (/home/thanura/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.2.0-universal/out/bundle.js:44:348843)
+	at AbortSignal.abortAndFinalize (/home/thanura/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.2.0-universal/out/bundle.js:44:349034)
+	at [nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+	at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+	at runAbort (node:internal/abort_controller:486:10)
+	at abortSignal (node:internal/abort_controller:457:3)
+	at AbortController.abort (node:internal/abort_controller:505:5)
+	at Timeout.<anonymous> (/home/thanura/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.2.0-universal/out/bundle.js:231:1243)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2025-07-16 00:58:55.011 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"

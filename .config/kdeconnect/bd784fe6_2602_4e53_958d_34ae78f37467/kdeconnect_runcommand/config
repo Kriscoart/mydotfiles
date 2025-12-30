@@ -1,0 +1,2 @@
+[General]
+commands="@ByteArray({\"_3015ad09_beb1_404a_9b4a_86ac043fbbdd_\":{\"command\":\"systemctl poweroff\",\"name\":\"Shutdown\"},\"_4b762329_af04_497f_9d4a_263f429bd3bc_\":{\"command\":\"ping archlinux.org\",\"name\":\"ping\"}})"

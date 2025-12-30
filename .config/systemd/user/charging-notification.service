@@ -1,0 +1,6 @@
+[Unit]
+Description=Battery Charging Notification Service
+
+[Service]
+ExecStart=/usr/local/bin/charging-notification
+

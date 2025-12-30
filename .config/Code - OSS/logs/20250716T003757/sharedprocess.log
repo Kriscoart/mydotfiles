@@ -1,0 +1,8 @@
+2025-07-16 00:38:00.094 [info] ComputeTargetPlatform: linux-x64
+2025-07-16 00:38:30.676 [info] ComputeTargetPlatform: linux-x64
+2025-07-16 00:49:08.879 [info] Getting Manifest... llvm-vs-code-extensions.vscode-clangd
+2025-07-16 00:49:10.704 [info] Installing extension: llvm-vs-code-extensions.vscode-clangd {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/thanura/.vscode-oss/extensions/extensions.json","path":"/home/thanura/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"}}
+2025-07-16 00:49:26.221 [info] Extension signature verification result for llvm-vs-code-extensions.vscode-clangd: Success. Executed: true. Duration: 1624ms.
+2025-07-16 00:49:26.280 [info] Extracted extension to file:///home/thanura/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.2.0-universal: llvm-vs-code-extensions.vscode-clangd
+2025-07-16 00:49:26.289 [info] Renamed to /home/thanura/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.2.0-universal
+2025-07-16 00:49:26.307 [info] Extension installed successfully: llvm-vs-code-extensions.vscode-clangd vscode-userdata:/home/thanura/.vscode-oss/extensions/extensions.json

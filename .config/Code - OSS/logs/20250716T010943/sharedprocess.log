@@ -1,0 +1,19 @@
+2025-07-16 01:09:46.838 [info] ComputeTargetPlatform: linux-x64
+2025-07-16 01:09:48.223 [info] ComputeTargetPlatform: linux-x64
+2025-07-16 01:16:24.678 [info] Getting Manifest... franneck94.c-cpp-runner
+2025-07-16 01:16:26.460 [info] Installing extension: franneck94.c-cpp-runner {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/thanura/.vscode-oss/extensions/extensions.json","path":"/home/thanura/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"}}
+2025-07-16 01:16:26.865 [info] Getting Manifest... vadimcn.vscode-lldb
+2025-07-16 01:16:27.688 [info] Installing extension: vadimcn.vscode-lldb {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/thanura/.vscode-oss/extensions/extensions.json","path":"/home/thanura/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-16 01:16:32.221 [info] Extension signature verification result for vadimcn.vscode-lldb: Success. Executed: true. Duration: 1944ms.
+2025-07-16 01:16:32.224 [info] Extension signature verification result for franneck94.c-cpp-runner: Success. Executed: true. Duration: 1948ms.
+2025-07-16 01:16:32.259 [info] Extracted extension to file:///home/thanura/.vscode-oss/extensions/vadimcn.vscode-lldb-1.11.5-universal: vadimcn.vscode-lldb
+2025-07-16 01:16:32.293 [info] Renamed to /home/thanura/.vscode-oss/extensions/vadimcn.vscode-lldb-1.11.5-universal
+2025-07-16 01:16:32.377 [info] Extracted extension to file:///home/thanura/.vscode-oss/extensions/franneck94.c-cpp-runner-9.4.7-universal: franneck94.c-cpp-runner
+2025-07-16 01:16:32.389 [info] Renamed to /home/thanura/.vscode-oss/extensions/franneck94.c-cpp-runner-9.4.7-universal
+2025-07-16 01:16:32.407 [info] Extension installed successfully: vadimcn.vscode-lldb vscode-userdata:/home/thanura/.vscode-oss/extensions/extensions.json
+2025-07-16 01:16:32.407 [info] Extension installed successfully: franneck94.c-cpp-runner vscode-userdata:/home/thanura/.vscode-oss/extensions/extensions.json
+2025-07-16 01:16:39.247 [info] Installing extension: vadimcn.vscode-lldb {"installGivenVersion":true,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/thanura/.vscode-oss/extensions/extensions.json","path":"/home/thanura/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.2","date":"2025-06-25T19:40:00.687Z"}}
+2025-07-16 01:16:39.281 [info] Deleted existing extension from disk vadimcn.vscode-lldb /home/thanura/.vscode-oss/extensions/vadimcn.vscode-lldb-1.11.5-universal
+2025-07-16 01:16:41.627 [info] Extracted extension to file:///home/thanura/.vscode-oss/extensions/vadimcn.vscode-lldb-1.11.5: vadimcn.vscode-lldb
+2025-07-16 01:16:41.671 [info] Renamed to /home/thanura/.vscode-oss/extensions/vadimcn.vscode-lldb-1.11.5
+2025-07-16 01:16:41.688 [info] Extension installed successfully: vadimcn.vscode-lldb vscode-userdata:/home/thanura/.vscode-oss/extensions/extensions.json

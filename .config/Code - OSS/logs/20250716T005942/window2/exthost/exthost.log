@@ -1,0 +1,7 @@
+2025-07-16 01:07:47.015 [info] Extension host with pid 8601 started
+2025-07-16 01:07:47.047 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-16 01:07:47.059 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-16 01:07:47.134 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-16 01:07:47.249 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-16 01:07:47.293 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-16 01:07:47.296 [info] Extension host with pid 8601 exiting with code 0

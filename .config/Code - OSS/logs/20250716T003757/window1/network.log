@@ -1,0 +1,14 @@
+2025-07-16 00:38:11.683 [error] #1: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled
+2025-07-16 00:47:20.458 [error] #10: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled
+2025-07-16 00:47:22.290 [error] #11: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled
+2025-07-16 00:47:41.872 [error] #17: https://open-vsx.org/vscode/asset/danielpinto8zz6/c-cpp-project-generator/1.2.20/Microsoft.VisualStudio.Code.Manifest?targetPlatform=universal - error GET Offline
+2025-07-16 00:47:41.884 [error] #18: https://open-vsx.org/vscode/asset/danielpinto8zz6/c-cpp-project-generator/1.2.20/Microsoft.VisualStudio.Code.Manifest?targetPlatform=universal - error GET Offline
+2025-07-16 00:47:42.773 [error] #19: https://open-vsx.org/vscode/asset/KylinIdeTeam/kylin-cpp-pack/0.1.0/Microsoft.VisualStudio.Services.Content.Details?targetPlatform=universal - error GET Failed to fetch
+2025-07-16 00:47:42.775 [error] #20: https://open-vsx.org/vscode/gallery/extensionquery - error POST Failed to fetch
+2025-07-16 00:47:42.782 [error] #21: https://open-vsx.org/vscode/asset/KylinIdeTeam/kylin-cpp-pack/0.1.0/Microsoft.VisualStudio.Services.Content.Details?targetPlatform=universal - error GET Failed to fetch
+2025-07-16 00:47:45.772 [error] #22: https://open-vsx.org/vscode/gallery/extensionquery - error POST Failed to fetch
+2025-07-16 00:47:52.211 [error] #23: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled
+2025-07-16 00:48:21.296 [error] #29: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled
+2025-07-16 00:50:00.036 [error] #39: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled
+2025-07-16 00:59:11.967 [error] #49: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled
+2025-07-16 00:59:13.836 [error] #51: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled

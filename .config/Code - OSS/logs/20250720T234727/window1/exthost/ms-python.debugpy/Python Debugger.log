@@ -1,0 +1,21 @@
+2025-07-20 23:54:26.798 [error] sendDebugpySuccessActivationTelemetry() failed. [Error: Extension 'ms-python.debugpy' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares:  but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.debugpy
+	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:29606)
+	at Object.registerPortAttributesProvider (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:115632)
+	at t.registerDebugger (/home/thanura/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64/dist/extension.js:2:846640)
+	at e.activate (/home/thanura/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64/dist/extension.js:2:1098056)
+	at ky.kb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:15268)
+	at ky.jb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:14975)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:13133
+	at async Wb.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:13382)
+	at async Wb.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:13345)
+	at async Wb.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:12801)]
+2025-07-20 23:55:02.979 [info] Resolving launch configuration with substituted variables
+2025-07-20 23:55:03.001 [info] DAP Server launched with command: /bin/python /home/thanura/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy/adapter
+2025-07-20 23:56:11.896 [info] Resolving launch configuration with substituted variables
+2025-07-20 23:56:11.909 [info] DAP Server launched with command: /bin/python /home/thanura/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy/adapter
+2025-07-20 23:59:06.646 [info] Resolving launch configuration with substituted variables
+2025-07-20 23:59:06.650 [info] DAP Server launched with command: /bin/python /home/thanura/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy/adapter
+2025-07-20 23:59:47.737 [info] Resolving launch configuration with substituted variables
+2025-07-20 23:59:47.740 [info] DAP Server launched with command: /bin/python /home/thanura/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy/adapter

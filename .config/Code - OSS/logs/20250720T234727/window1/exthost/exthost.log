@@ -1,0 +1,44 @@
+2025-07-20 23:47:30.253 [info] Extension host with pid 9321 started
+2025-07-20 23:47:30.253 [info] Skipping acquiring lock for /home/thanura/.config/Code - OSS/User/workspaceStorage/669f80c3120c6722f978ed58bfcb8a40.
+2025-07-20 23:47:30.279 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-20 23:47:30.301 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-20 23:47:30.381 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-20 23:47:30.484 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-20 23:47:30.831 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-20 23:47:30.845 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-20 23:47:30.933 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-20 23:47:30.989 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: true, activationEvent: 'workspaceContains:*.h,*.c,*.hh,*.cc,*.hxx,*.cxx,*.hpp,*.cpp,*.cu', root cause: franneck94.c-cpp-runner
+2025-07-20 23:47:31.048 [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: true, activationEvent: 'workspaceContains:*.h,*.c,*.hh,*.cc,*.hxx,*.cxx,*.hpp,*.cpp,*.cu'
+2025-07-20 23:47:31.090 [info] Eager extensions activated
+2025-07-20 23:47:31.098 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-20 23:47:31.109 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-20 23:54:26.339 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onWalkthrough:pythonWelcome'
+2025-07-20 23:54:26.707 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-07-20 23:54:26.790 [error] Activating extension ms-python.debugpy failed due to an error:
+2025-07-20 23:54:26.790 [error] Error: Extension 'ms-python.debugpy' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares:  but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.debugpy
+	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:29606)
+	at Object.registerPortAttributesProvider (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:115632)
+	at t.registerDebugger (/home/thanura/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64/dist/extension.js:2:846640)
+	at e.activate (/home/thanura/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64/dist/extension.js:2:1098056)
+	at ky.kb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:15268)
+	at ky.jb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:14975)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:13133
+	at async Wb.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:13382)
+	at async Wb.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:13345)
+	at async Wb.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:12801)
+2025-07-20 23:54:27.998 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:29606)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:99396)
+	at C.activate (/home/thanura/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/thanura/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/thanura/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)
+2025-07-20 23:54:52.186 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2025-07-20 23:55:00.564 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugDynamicConfigurations'
+2025-07-20 23:59:46.499 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-07-20 23:59:53.076 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-20 23:59:53.109 [info] Extension host with pid 9321 exiting with code 0

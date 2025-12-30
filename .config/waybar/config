@@ -1,6 +1,6 @@
 {
-    "modules-left": ["hyprland/workspaces","custom/media"],
-    "modules-center": ["clock", "idle_inhibitor"],
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["clock", "idle_inhibitor","custom/waybar-media"],
     /* "modules-right": ["tray", "custom/scratchpad-indicator", "pulseaudio", "custom/power"], */
     "modules-right": ["tray", "pulseaudio","group/hardware","network","group/group-power"],
 
@@ -43,6 +43,15 @@
          "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
          "format-alt": "{:%Y-%m-%d}"
 	//	"on-click": "gnome-calendar"
+    },
+
+    "custom/waybar-media": {
+        "return-type": "json",
+        "exec": "waybar-media.py status",
+        "on-click": "waybar-media.py playpause",
+        "on-scroll-up": "waybar-media.py previous",
+        "on-scroll-down": "waybar-media.py next",
+        "escape": true
     },
 
     // Battery
@@ -153,7 +162,7 @@
         "escape": true,
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
-    },
+},
 
     "custom/scratchpad-indicator": {
         "format-text": "{}hi",

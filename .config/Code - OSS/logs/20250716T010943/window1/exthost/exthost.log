@@ -1,0 +1,82 @@
+2025-07-16 01:09:47.029 [info] Extension host with pid 9143 started
+2025-07-16 01:09:47.537 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-16 01:09:47.603 [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:cpp'
+2025-07-16 01:09:48.185 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-16 01:09:48.294 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-16 01:09:48.485 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-16 01:09:48.494 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-16 01:09:48.517 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-16 01:09:48.707 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-16 01:09:49.256 [info] Eager extensions activated
+2025-07-16 01:09:49.269 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 01:09:49.275 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 01:10:13.650 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-16 01:10:13.673 [info] Extension host with pid 9143 exiting with code 0
+2025-07-16 01:10:15.243 [info] Extension host with pid 9366 started
+2025-07-16 01:10:15.243 [info] Skipping acquiring lock for /home/thanura/.config/Code - OSS/User/workspaceStorage/669f80c3120c6722f978ed58bfcb8a40.
+2025-07-16 01:10:15.395 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-16 01:10:15.414 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-16 01:10:15.505 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-16 01:10:15.573 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-16 01:10:15.896 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-07-16 01:10:15.901 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-16 01:10:15.973 [info] Eager extensions activated
+2025-07-16 01:10:15.974 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 01:10:15.976 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 01:10:17.308 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-07-16 01:10:28.230 [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:cpp'
+2025-07-16 01:10:50.946 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-07-16 01:10:50.946 [error] {"a":true,"b":null}
+2025-07-16 01:10:50.947 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-07-16 01:10:50.947 [error] {"a":true,"b":null}
+2025-07-16 01:10:50.949 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-07-16 01:10:50.949 [error] {"a":true,"b":null}
+2025-07-16 01:11:08.934 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-07-16 01:11:08.934 [error] {"a":true,"b":null}
+2025-07-16 01:11:09.038 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-07-16 01:11:09.038 [error] {"a":true,"b":null}
+2025-07-16 01:11:09.860 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-07-16 01:11:09.860 [error] {"a":true,"b":null}
+2025-07-16 01:11:10.136 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-07-16 01:11:10.136 [error] {"a":true,"b":null}
+2025-07-16 01:11:45.093 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-07-16 01:11:45.094 [error] {"a":true,"b":null}
+2025-07-16 01:11:51.163 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-07-16 01:11:51.163 [error] {"a":true,"b":null}
+2025-07-16 01:11:51.583 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-07-16 01:11:51.583 [error] {"a":true,"b":null}
+2025-07-16 01:13:10.494 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugInitialConfigurations'
+2025-07-16 01:13:13.452 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2025-07-16 01:16:32.642 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onDebug'
+2025-07-16 01:16:32.916 [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: false, activationEvent: 'onLanguage:cpp'
+2025-07-16 01:16:44.045 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-16 01:16:44.074 [info] Extension host with pid 9366 exiting with code 0
+2025-07-16 01:16:44.896 [info] Extension host with pid 9989 started
+2025-07-16 01:16:44.896 [info] Skipping acquiring lock for /home/thanura/.config/Code - OSS/User/workspaceStorage/669f80c3120c6722f978ed58bfcb8a40.
+2025-07-16 01:16:44.907 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-16 01:16:44.920 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-16 01:16:44.996 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-16 01:16:45.059 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-16 01:16:45.080 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onLanguage:cpp', root cause: franneck94.c-cpp-runner
+2025-07-16 01:16:45.094 [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:cpp'
+2025-07-16 01:16:45.218 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugInitialConfigurations'
+2025-07-16 01:16:45.336 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2025-07-16 01:16:45.398 [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: false, activationEvent: 'onLanguage:cpp'
+2025-07-16 01:16:45.761 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-16 01:16:45.766 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-16 01:16:45.819 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-16 01:16:45.945 [info] Eager extensions activated
+2025-07-16 01:16:45.947 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 01:16:45.949 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 01:16:46.043 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-07-16 01:16:46.043 [error] {"a":true,"b":null}
+2025-07-16 01:16:46.043 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-07-16 01:16:46.043 [error] {"a":true,"b":null}
+2025-07-16 01:16:46.044 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-07-16 01:16:46.044 [error] {"a":true,"b":null}
+2025-07-16 01:16:46.045 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-07-16 01:16:46.045 [error] {"a":true,"b":null}
+2025-07-16 01:16:46.046 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-07-16 01:16:46.046 [error] {"a":true,"b":null}
+2025-07-16 01:17:30.507 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-16 01:17:30.530 [info] Extension host with pid 9989 exiting with code 0
